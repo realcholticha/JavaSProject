@@ -1,0 +1,36 @@
+GET http://localhost:3000/
+
+###
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "userID": "123@hotmail.com",
+    "password": "123",
+    "name": "M",
+    "address": "1234",
+    "mail" : "1234@hotmail.com"
+    
+}
+###
+POST http://thc99.app.ruk-com.cloud/login
+Content-Type: application/json
+
+{
+    "userID": "123@hotmail.com",
+    "password": "123"
+    
+}
+
+###
+POST http://thc99.app.ruk-com.cloud/register
+Content-Type: application/json
+
+{
+    
+    "userID": "123@hotmail.com",
+    "password": "123",
+    "name": "M",
+    "address": "1234",
+    "mail" : "1234@hotmail.com"
+}
